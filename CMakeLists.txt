@@ -9,4 +9,4 @@ include_directories(tests/catch src/graphics)
 add_executable(GrungeEngine ${SOURCE_FILES})
 
 # Link GFLW
-target_link_libraries(GrungeEngine glfw3)
+target_link_libraries(GrungeEngine glfw3 glew)

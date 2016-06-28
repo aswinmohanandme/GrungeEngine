@@ -1,6 +1,9 @@
-//
-// Created by Aswin Mohan on 27/06/16.
-//
+/*
+ *Author :: Aswin Mohan
+ *
+ * @Description : Simple Driver program for Grunge Engine
+ */
+
 
 #include <Window.h>
 

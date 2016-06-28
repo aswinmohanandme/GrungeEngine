@@ -34,6 +34,13 @@ namespace grunge{
 
             glfwMakeContextCurrent(_window);
 
+
+            if (glewInit() != GLEW_OK){
+                std::cout << " Cannot Open GLEW " << std::endl;
+                return false;
+            }
+            std::cout << "Current Version of OpenGl " << GL_VERSION << std::endl;
+
             return true;
         }
 
